@@ -1,0 +1,161 @@
+body {
+    line-height: 1.3;
+}
+
+/* Navbar */
+#navbar {
+    padding: 1rem 0;
+}
+
+#navbar .logo {
+    width: 14rem;
+}
+
+#navbar .socials i {
+    font-size: 2rem;
+    margin-left: 7px;
+}
+
+/* Showcase */
+#showcase .showcase-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#showcase .showcase-container .showcase-content {
+    grid-column: 1 / span 2;
+}
+
+#navbar ul li a {
+    padding: 0.6rem 1.2rem;
+}
+
+/* Home Articles */
+#articles .articles-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#articles .articles-container>*:first-child,
+#articles .articles-container>*:last-child {
+    grid-template-columns: 1fr;
+    grid-column: 1 / span 1;
+
+}
+
+/* Main Footer */
+
+#main-footer .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main-footer .footer-container>*:last-child {
+    grid-column: 1 / span 2;
+}
+
+/* About page */
+/* Utilities */
+.page-container {
+    grid-template-columns: 1fr;
+}
+
+.page-container article {
+    grid-row: 1 / span 1;
+}
+
+
+@media(max-width:600px) {
+
+    /* Navbar */
+    #navbar .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #navbar .container ul {
+        justify-self: end;
+    }
+
+    #navbar .socials {
+        display: none;
+    }
+
+    #navbar ul li a {
+        padding: 0.4rem 1rem;
+    }
+
+    /* Showcase */
+    #showcase .showcase-container {
+        grid-template-columns: 1fr;
+    }
+
+    #showcase .showcase-container .showcase-content {
+        grid-column: 1 / span 1;
+    }
+
+    /* Home Articles */
+    #articles .articles-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Main Footer */
+    #main-footer .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    #main-footer .footer-container>*:last-child {
+        grid-column: 1 / span 1;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* Very small devices */
+@media (max-width: 400px) {
+
+    /* Headings */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+}
