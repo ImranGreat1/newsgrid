@@ -38,7 +38,6 @@ body {
 #articles .articles-container>*:last-child {
     grid-template-columns: 1fr;
     grid-column: 1 / span 1;
-
 }
 
 /* Main Footer */
@@ -61,8 +60,7 @@ body {
     grid-row: 1 / span 1;
 }
 
-
-@media(max-width:600px) {
+@media (max-width: 600px) {
 
     /* Navbar */
     #navbar .container {
@@ -128,7 +126,6 @@ body {
     h6 {
         font-size: 1.2rem;
     }
-
 }
 
 /* Very small devices */

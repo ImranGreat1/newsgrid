@@ -380,3 +380,13 @@ img {
 #about-us ul a:hover {
   color: var(--primary-color);
 }
+
+@media screen and (min-width: 560px) and (max-width: 900px) and (orientation: landscape) {
+  #showcase .showcase-container {
+    height: 80vh !important;
+  }
+
+  #navbar .socials {
+    display: none;
+  }
+}
