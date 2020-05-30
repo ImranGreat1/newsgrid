@@ -386,6 +386,10 @@ img {
     height: 80vh !important;
   }
 
+  #navbar .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   #navbar .socials {
     display: none;
   }
